@@ -1,0 +1,35 @@
+.references {
+    color: $color3;
+    @include underline;
+    h2 {
+        font-size: 1.2em;
+        margin-left: 60px;
+    }
+}
+
+.reviews {
+    width: 100%;
+    @include flex($justify:space-between);
+    .review {
+        margin: 0px 60px;
+        flex: 1;
+        p {
+            color: $color2;
+            font-size: 24px;
+            font-style: italic;
+            text-align: center;
+        }
+    }
+    .arrow-btn {
+        border: none;
+        cursor: pointer;
+    }
+    #arrow-left {
+        margin-top: 80px;
+    }
+    #arrow-right {
+        margin-top: 80px;
+    }
+}
+
+

@@ -1,0 +1,28 @@
+body {
+    background-color: #EFEFEF;  
+    font-size: 30px;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 1.4em;
+    color: $color3;
+    text-align: center;
+    margin: $page-margin;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-size: 0.7em;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,36 @@
+.costumer-reviews {
+    color: $color3;
+    h2 {
+        font-size: 1.0em;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+}
+
+.review-wrapper {
+    width: 100%;
+    @include flex;
+    margin-bottom: 50px;
+    .review-cite {
+        margin: 0px 60px;
+        flex: 1;
+        p {
+            color: $color2;
+            font-size: 22px;
+            font-style: italic;
+            text-align: center;
+        }
+    }
+    .arrow-btn {
+        border: none;
+        cursor: pointer;
+    }
+    #arrow-left {
+        margin-top: 80px;
+    }
+    #arrow-right {
+        margin-top: 80px;
+    }
+}
+
+

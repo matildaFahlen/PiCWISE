@@ -1,0 +1,67 @@
+.box-wrapper {
+    @include flex;
+    .info-boxes {
+        height: 250px;
+        width: 100%;
+        color: white;
+        font-size: 0.9em;
+        h2 {
+            font-size: 1.0em;
+            margin: 0px;
+            padding: 20px;
+            padding-bottom: 0px;
+        }
+        p {
+            margin: 0px;
+            padding: 20px;
+        }
+        a {
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    .one {
+        background-color: $color1;
+    }
+    .two {
+        background-color: $color2;
+    }
+    .three {
+        background-color: $color3;
+    }
+}
+
+.work-info {
+    @include flex;
+    @include underline;
+    .work-info-text {
+        padding: 20px 0px 15px 50px;
+        margin-left: 70px;
+        color: $color3;
+        h2 {
+            font-size: 1.2em;
+        }
+        p {
+            font-size: 0.7em;
+        }
+        a {
+            background-color: $color2;
+            color: white;
+            font-size: 12px;
+            border-radius: 20px;
+            padding: 10px 30px;
+        }
+        a:hover {
+            font-size: 14px;
+        }
+    }
+    .img-wrapper {
+        img {
+            width: 60%;
+            height: auto;
+            padding-top: 120px;
+            padding-left: 80px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import "./partials/global/mixins";
+@import "./partials/global/variables";
+@import "./partials/global/global";
+@import "./partials/home/header";
+@import "./partials/home/articles";
+@import "./partials/home/product-section";
+@import "./partials/home/review-section";
+@import "./partials/home/contact-section";
+@import "./partials/global/footer";
+@import "./partials/products/products";
+@import "./partials/about/about";
+@import "./partials/contact/contact";
+@import "./partials/references/references";
+
+//Small tablet styles
+@media screen and (min-width: 620px) {
+    
+}
+
+//Large tablet & laptop styles
+@media screen and (min-width: 960px) {
+
+}
+//Desktop styles
+@media screen and (min-width: 1200px) {
+    
+}

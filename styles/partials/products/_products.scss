@@ -1,0 +1,26 @@
+.main-services {
+    color: $color3;
+    margin: $page-margin;
+    .products-h1 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .services-container {
+        .service {
+            @include underline;
+            @include flex($justify:space-between);
+            h3 {
+                font-size: 24px;
+            }
+        }    
+        .photo {
+            border-top: 1px solid $color3;
+        } 
+        .editing {
+            border-bottom: none;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+//Page global settings
+.contact-page {
+    margin: $page-margin;
+    color: $color3;
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.page-holder {
+    @include flex;
+}
+
+//Contact form
+.form {
+    flex: 1;
+}
+.contact-form {
+    padding-left: 30px;
+    label {
+        font-size: 20px;
+    }
+    .upper-form {
+        @include flex;
+    }
+    .contact-input {
+        font-size: 16px;
+        margin-right: 10px;
+        width: 279px;
+        font-family: 'Times New Roman', Times, serif;
+        outline: none;
+    }
+    .contact-input:focus {
+        border: 2px solid $color3;
+    }
+    .drop-down {
+        color: grey;
+        width: 583px;
+    }
+    #messages {
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        outline: none;
+    }
+    #messages:focus {
+        border: 2px solid $color3;
+    }
+}
+
+//Office pictures and info
+.office-info {
+    flex: 1;
+    padding: 30px;
+    .office-photos {
+        @include flex;
+    }
+    .photo-holder {
+        margin: 5px;
+    }
+    .office-building {
+        width: 400px;
+    }
+    .office-room {
+        width: 400px;
+    }
+    p {
+        font-size: 18px;
+    }
+}

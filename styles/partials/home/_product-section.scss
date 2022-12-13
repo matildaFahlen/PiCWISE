@@ -1,0 +1,39 @@
+.our-products {
+    padding-top: 40px;
+    @include underline;
+    .product-wrapper {
+        @include flex;
+        .product {
+            width: 100%;
+            margin: 4px;
+            img {
+                width: 100%;
+                height: auto;
+                opacity: 0.6;
+            }
+        }
+    }
+}
+
+.product-link {
+    position: relative;
+    text-align: center;
+    color: $color2;
+}
+
+.p-link {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid $color2;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+
+.product-link:hover {
+    .p-link {
+        font-size: 28px;
+    }
+}

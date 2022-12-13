@@ -1,0 +1,47 @@
+.contact-container {
+    @include flex($justify:space-between);
+    padding-bottom: 20px;
+    .form, .upper-contact-text {
+        color: $color3;
+        margin-left: 60px;
+    }
+    label {
+        font-size: 20px;;
+    }
+}
+
+.contact-person {
+    font-size: 20px;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+.contact-person:focus {
+  border: 2px solid $color3;
+}
+
+#message {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+#message:focus {
+  border: 2px solid $color3;
+}
+
+.call-us-wrap {
+    width: 300px;
+    background-color: $color1;
+    color: white;
+    border-radius: 10px;
+    margin: 40px 60px;
+    padding: 10px;
+    border: 1px solid $color3;
+    box-shadow: 2px 2px $color3;
+    .call-us {
+        text-align: center;
+        font-size: 0.7em;
+    }
+}
